@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>University Web Design</title>
+
+	<!-- bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<!-- CSS -->
+	<style>
+		@import url(PJ0.css);
+		@import url(PJ0M.css);
+	</style>
+
+	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<!-- Icon Link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css"> -->
+</head>
+<body>
+	<header class="sub-header">
+		<nav>
+			<a href="PJ0.html"><img src="assets0/img0/logo.png" alt=""></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times-circle" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="About.html">ABOUT</a></li>
+					<li><a href="Course.html">COURSE</a></li>
+					<li><a href="Blog.html">BLOG</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+		<h1>Contact Us</h1>
+	</header>
+
+	<!-- contact us -->
+
+	<section class="location">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235013.70770255878!2d72.43931097436544!3d23.02049746958604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1668676714097!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</section>
+	
+	<section class="contact-us">
+		<div class="row">
+			<div class="contact-col">
+				<div>
+					<i class="fa fa-home"></i>
+					<span>
+						<h5>
+							XYZ Road, ABC Building
+						</h5>
+						<p>Ahmedabad, Gujarat, India</p>
+					</span>
+				</div>
+				<div>
+					<i class="fa fa-phone"></i>
+					<span>
+						<h5>
+							+91 1234567890
+						</h5>
+						<p>Monday to Saturday, 10 AM to ^ PM</p>
+					</span>
+				</div>
+				<div>
+					<i class="fa fa-envelope-o"></i>
+					<span>
+						<h5>
+							infoabcd@jds.com
+						</h5>
+						<p>Email us your query</p>
+					</span>
+				</div>
+			</div>
+			<div class="contact-col">
+				<form action="">
+					<div class="form-floating mb-3">
+						<input type="text" class="form-control" id="name" placeholder="Enter Your Name" required>
+						<label for="name">Enter Your Name</label>
+					</div>
+					<div class="form-floating mb-3">
+						<input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+						<label for="floatingInput">Email address</label>
+					</div>
+					<div class="form-floating mb-3">
+						<input type="text" class="form-control" id="subject" placeholder="Enter Your Subject" required>
+						<label for="subject">Enter Your Subject</label>
+					</div>
+					<div class="form-floating mb-3">
+					<textarea rows="8" class="form-control" placeholder="Leave a comment here" id="textarea" required></textarea>
+					<label for="textarea">Comments</label>
+					</div>
+					<button type="submit" class="hero-btn blue-btn">Send Message</button>
+				</form>
+			</div>
+		</div>
+	</section>
+	
+	<!-- Footer -->
+
+	<section class="footer">
+		<h4>About Us</h4>
+		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus provident quibusdam doloremque facilis qui possimus id dicta accusamus! <br> Nulla repellat officiis dolore odio sapiente sint nam sequi soluta recusandae nemo!
+		</p>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+		</div>
+		<p>Made with <i class="fa fa-heart-o"></i> by Jainam Sakariya</p>
+	</section>
+
+
+
+
+
+
+<!-- JavaScript Start -->
+<script src="PJ0.js">
+
+</script>
+<!-- JavaScript End -->
+</body>
+</html>
